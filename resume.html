@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="Bootstrap.Files/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="Bootstrap.Files/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div id="leaves-container"></div>
+
+  <nav class="sidebar container-fluid">
+    <h2 class="logo">My Portfolio</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html" class="active">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="content container-fluid">
+    <h1 class="text-center bg-success bg-gradient text-white p-3 shadow-sm rounded-bottom">
+      My Resume
+    </h1>
+
+    <section class="container my-5">
+
+      <div class="card shadow-lg border-0 mb-4">
+        <div class="card-header bg-success text-white fw-semibold">
+          Profile Summary
+        </div>
+        <div class="card-body">
+          <p>
+            Motivated and detail-oriented student with strong interest in web development
+            and technology. Skilled in HTML, CSS, and Bootstrap, with a passion for creating
+            responsive and user-friendly websites.
+          </p>
+        </div>
+      </div>
+
+      <div class="card shadow-lg border-0 mb-4">
+        <div class="card-header bg-success text-white fw-semibold">
+          Skills
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">HTML, CSS, Bootstrap</li>
+          <li class="list-group-item">Basic JavaScript</li>
+          <li class="list-group-item">Responsive Web Design</li>
+          <li class="list-group-item">Problem Solving</li>
+        </ul>
+      </div>
+
+      <h1 class="mt-5 top-bar bg-success text-white p-2 shadow-sm rounded-bottom">
+        Education
+      </h1>
+
+      <div class="card shadow-lg border-0 rounded-3 p-4 mt-3 container-fluid">
+        <div class="timeline">
+          <div class="timeline-item">
+            <h5>2011 – 2017</h5>
+            <p>Antonio B. Del Rosario Sr. Memorial Elementary School</p>
+          </div>
+
+          <div class="timeline-item">
+            <h5>2017 – 2021</h5>
+            <p>Tanza National Trade School – Annex</p>
+          </div>
+
+          <div class="timeline-item">
+            <h5>2021 – 2023</h5>
+            <p>Notre Dame of Trece Martirez City</p>
+          </div>
+        </div>
+      </div>
+
+      <button onclick="downloadCV()" class="text-secondary mt-5 btn btn-warning w-100 mb-4">
+        Download CV
+      </button>
+
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
